@@ -10,16 +10,24 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-
     <style>
-        .font-bebas{
-            font-family: 'Bebas Neue', sans-serif;
-        }
+      .font-bebas {
+        font-family: "Bebas Neue", sans-serif;
+      }
+      .font-roboto{
+        font-family: 'Roboto', sans-serif;
+      }
     </style>
   </head>
   <body>
-    <header class="bg-[#FFFBb9;] px-10  md:px-32 py-20">
+    <header class="bg-[#FFFBb9;] px-10 md:px-32 py-20">
       <div class="flex flex-col md:flex-row items-center justify-between">
         <div class="space-y-3">
           <h1 class="text-7xl font-bebas">
@@ -55,10 +63,112 @@
         </div>
       </div>
     </header>
-    <main class="px-10  md:px-32">
-        <section class="font-bebas  max-w-screen-xl mx-auto">
-            <h1 class="text-5xl">W0Man Jacket</h1>
-        </section>
+    <main class="px-5 md:px-20 lg:px-32 max-w-screen-xl mx-auto">
+      <section class="font-bebas ">
+        <h1 class="text-5xl">W0Man Jacket</h1>
+      </section>
+      <!-- jacket section  -->
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- jacket 1 -->
+        <div class="max-w-screen-xl mx-auto font-roboto items-center space-y-2 shadow-md  pt-5 pb-3 px-5 shadow-slate-600 rounded-2xl">
+          <div class="bg-[#d4d4d4] rounded-2xl px-8 py-7 ">
+            <img src="./asset/images/jacket-1.png" alt="" />
+          </div>
+          <h1 class="text-2xl font-bold">Yellow Coat Jacket</h1>
+          <p class="text-base">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <div class="flex justify-between items-center">
+            <p class="text-4xl font-bold text-orange-500">$234</p>
+            <button
+              class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-6 rounded-2xl text-white flex gap-2 text-base font-medium"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+              BUY NOW
+            </button>
+          </div>
+        </div>
+        <!-- jacket 2 -->
+        <div class="max-w-screen-xl mx-auto font-roboto items-center space-y-2 shadow-md  pt-5 pb-3 px-5 shadow-slate-600 rounded-2xl">
+          <div class="bg-[#d4d4d4] rounded-2xl px-8 py-7 ">
+            <img src="./asset/images/jacket-1.png" alt="" />
+          </div>
+          <h1 class="text-2xl font-bold">Yellow Coat Jacket</h1>
+          <p class="text-base">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <div class="flex justify-between items-center">
+            <p class="text-4xl font-bold text-orange-500">$234</p>
+            <button
+              class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-6 rounded-2xl text-white flex gap-2 text-base font-medium"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+              BUY NOW
+            </button>
+          </div>
+        </div>
+        <!-- jacket 3 -->
+        <div class="max-w-screen-xl mx-auto font-roboto items-center space-y-2 shadow-md  pt-5 pb-3 px-5 shadow-slate-600 rounded-2xl">
+          <div class="bg-[#d4d4d4] rounded-2xl px-8 py-7 ">
+            <img src="./asset/images/jacket-1.png" alt="" />
+          </div>
+          <h1 class="text-2xl font-bold">Yellow Coat Jacket</h1>
+          <p class="text-base">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <div class="flex justify-between items-center">
+            <p class="text-4xl font-bold text-orange-500">$234</p>
+            <button
+              class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-6 rounded-2xl text-white flex gap-2 text-base font-medium"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
